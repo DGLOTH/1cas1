@@ -1,0 +1,768 @@
+﻿<!doctype html>
+
+    <!--[if lt IE 7]><html lang="sv-SE" class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+    <!--[if (IE 7)&!(IEMobile)]><html lang="sv-SE" class="no-js lt-ie9 lt-ie8"><![endif]-->
+    <!--[if (IE 8)&!(IEMobile)]><html lang="sv-SE" class="no-js lt-ie9"><![endif]-->
+    <!--[if gt IE 8]><!--> <html lang="sv-SE" class="no-js"><!--<![endif]-->
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+                <title>  Utvecklare  Novomatic</title>
+        <link rel="apple-touch-icon" sizes="57x57" href="..\..\wp-content\themes\hex3\library\favicons\apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="..\..\wp-content\themes\hex3\library\favicons\apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="..\..\wp-content\themes\hex3\library\favicons\apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="..\..\wp-content\themes\hex3\library\favicons\apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="..\..\wp-content\themes\hex3\library\favicons\apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="..\..\wp-content\themes\hex3\library\favicons\apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="..\..\wp-content\themes\hex3\library\favicons\apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="..\..\wp-content\themes\hex3\library\favicons\apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="..\..\wp-content\themes\hex3\library\favicons\apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" href="..\..\wp-content\themes\hex3\library\favicons\favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="..\..\wp-content\themes\hex3\library\favicons\android-chrome-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="..\..\wp-content\themes\hex3\library\favicons\favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="..\..\wp-content\themes\hex3\library\favicons\favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="..\..\wp-content\themes\hex3\library\favicons\manifest.json">
+        <link rel="mask-icon" href="..\..\wp-content\themes\hex3\library\favicons\safari-pinned-tab.svg" color="#44b758">
+        <link rel="shortcut icon" href="..\..\wp-content\themes\hex3\library\favicons\favicon.ico">
+
+
+        <meta name="msapplication-TileColor" content="#44b758">
+        <meta name="msapplication-TileImage" content="http://casinohex.se/wp-content/themes/hex3/library/favicons/mstile-144x144.png">
+        <meta name="msapplication-config" content="http://casinohex.se/wp-content/themes/hex3/library/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#44b758">
+				
+                <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+        <meta name="google-site-verification" content="IlI_x2ooN5XbRPOErUvbskSTiREMXjaQJMtYrayjM9o">
+		<meta name="msvalidate.01" content="4BE6CF4EB17DE09748C5C031100819F8">
+		<meta name="p:domain_verify" content="48932c5881ab9fcc753f0b345b62159c">
+
+        <link rel='dns-prefetch' href='//s.w.org'>
+<link rel='stylesheet' id='wp-postratings-css' href='..\..\wp-content\plugins\wp-postratings\postratings-css.css' type='text/css' media='all'>
+<link rel='stylesheet' id='wp-pagenavi-css' href='..\..\wp-content\plugins\wp-pagenavi\pagenavi-css.css' type='text/css' media='all'>
+<link rel='stylesheet' id='hex-normalize-css' href='..\..\wp-content\themes\hex3\library\css\normalize.css' type='text/css' media='all'>
+<link rel='stylesheet' id='hex-grid-css' href='..\..\wp-content\themes\hex3\library\css\grid.css' type='text/css' media='all'>
+<link rel='stylesheet' id='hex-inputs-css' href='..\..\wp-content\themes\hex3\library\css\inputs.css' type='text/css' media='all'>
+<link rel='stylesheet' id='hex-stylesheet-css' href='..\..\wp-content\themes\hex3\library\css\style.css' type='text/css' media='all'>
+<link rel='stylesheet' id='hex-local-css' href='..\..\wp-content\themes\hex3\library\css\local.css' type='text/css' media='all'>
+<link rel='stylesheet' id='jquery-ui-css' href='..\..\wp-content\themes\hex3\library\css\jquery-ui.css' type='text/css' media='all'>
+<script type='text/javascript' src='..\..\wp-includes\js\jquery\jquery.js'></script>
+<script type='text/javascript' src='..\..\wp-includes\js\jquery\jquery-migrate.min.js'></script>
+<script type='text/javascript' src='..\..\wp-content\themes\hex3\library\js\libs\modernizr.custom.min.js'></script>
+<link rel='https://api.w.org/' href='..\..\wp-json\index.htm'>
+<style>.htsm-row{display:block;margin-bottom:1em;overflow:hidden;background:rgba(255,255,255,0.03);padding:20px;box-shadow:1px 1px 5px #000;}.htsm-row ul,.htsm-single li{display:block;width:100%;}.htsm-row ul li{display:block;float:left;width:50%;padding:0 0.5em 0.5em 0.5em;}.htsm-row h2,.htsm-row h3{display:block;width:100%;color:#87ee87;margin: 0 0 1em 0;}.htsm-row h2 a,.htsm-row h3 a{color:#87ee87;}@media only screen and (min-width: 768px){.htsm-row ul li{width:33.3%}}@media only screen and (min-width: 1240px){.htsm-row ul li{width:25%}}@media only screen and (min-width: 1600px){.htsm-row ul li{width:20%}}</style><!-- tidekey -->
+<!-- ogp default -->
+<meta property="og:type" content="article">
+<!-- ******* -->
+    </head>
+
+    <body class="archive tax-developers term-novomatic term-25 sv-SE desktop">
+        
+        <div id="container">
+                           
+            <header class="header" itemscope="" itemtype="http://schema.org/Organization">
+                
+                <a href="..\..\index.htm" id="siteLogo">
+                    <img src="..\..\wp-content\themes\hex3\library\images\site-logo-new.png" itemprop="logo" alt="Casino HEX">
+                </a>
+                
+                <div id="navToggle"><i class="fa fa-bars"></i></div>
+                
+                <nav id="mainNavigation" data-back="back!" class="">
+					<ul id="menu-top_menu" class="menu desktop"><li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><div class="wrapBtn"><a href="..\..\gratis-slots\index.htm" class="menu-link main-menu-link">Gratis Slots</a><span class="ddArrow"><i class="fa fa-caret-down "></i></span></div>
+<ul class="sub-menu"><li class="back"><a href="#">back!</a><span class="ddArrow"><i class="fa fa-arrow-left"></i></span></li>
+	<li id="menu-item-5131" class="menu-item menu-item-type-custom menu-item-object-custom"><div class="wrapBtn"><a href="..\..\gratis-slots\video-slots\index.htm" class="menu-link sub-menu-link">VIdeo Slots</a></div></li>
+	<li id="menu-item-5130" class="menu-item menu-item-type-custom menu-item-object-custom"><div class="wrapBtn"><a href="..\..\gratis-slots\klassiska-spelautomater\index.htm" class="menu-link sub-menu-link">Klassiska Spelautomater</a></div></li>
+</ul>
+</li>
+<li id="menu-item-4261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children sub"><div class="wrapBtn"><a href="..\..\casinospel-pa-natet\index.htm" class="menu-link main-menu-link">Casinospel på Nätet</a><span class="ddArrow"><i class="fa fa-caret-down "></i></span></div>
+<ul class="sub-menu"><li class="back"><a href="#">back!</a><span class="ddArrow"><i class="fa fa-arrow-left"></i></span></li>
+	<li id="menu-item-33" class="menu-item menu-item-type-custom menu-item-object-custom"><div class="wrapBtn"><a href="..\..\online-roulette\index.htm" class="menu-link sub-menu-link">Online Roulette</a></div></li>
+	<li id="menu-item-4260" class="menu-item menu-item-type-custom menu-item-object-custom"><div class="wrapBtn"><a href="..\..\blackjack-online\index.htm" class="menu-link sub-menu-link">Blackjack Online</a></div></li>
+	<li id="menu-item-4259" class="menu-item menu-item-type-custom menu-item-object-custom"><div class="wrapBtn"><a href="..\..\video-poker\index.htm" class="menu-link sub-menu-link">Video Poker</a></div></li>
+	<li id="menu-item-4262" class="menu-item menu-item-type-custom menu-item-object-custom"><div class="wrapBtn"><a href="..\..\skraplotter-online\index.htm" class="menu-link sub-menu-link">Skraplotter Online</a></div></li>
+</ul>
+</li>
+<li id="menu-item-30" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><div class="wrapBtn"><a href="..\index.htm" class="menu-link main-menu-link">Online Casinon</a><span class="ddArrow"><i class="fa fa-caret-down "></i></span></div>
+<ul class="sub-menu"><li class="back"><a href="#">back!</a><span class="ddArrow"><i class="fa fa-arrow-left"></i></span></li>
+	<li id="menu-item-5126" class="menu-item menu-item-type-post_type menu-item-object-online-casinon"><div class="wrapBtn"><a href="..\basta-natcasino\index.htm" class="menu-link sub-menu-link">Bästa Casino</a></div></li>
+	<li id="menu-item-5127" class="menu-item menu-item-type-post_type menu-item-object-online-casinon"><div class="wrapBtn"><a href="..\regler\index.htm" class="menu-link sub-menu-link">Casino Regler</a></div></li>
+	<li id="menu-item-5128" class="menu-item menu-item-type-post_type menu-item-object-online-casinon"><div class="wrapBtn"><a href="..\riktiga-pengar\index.htm" class="menu-link sub-menu-link">Casino riktiga pengar</a></div></li>
+	<li id="menu-item-5129" class="menu-item menu-item-type-post_type menu-item-object-online-casinon"><div class="wrapBtn"><a href="..\gratis-casino\index.htm" class="menu-link sub-menu-link">Gratis Casino</a></div></li>
+</ul>
+</li>
+<li id="menu-item-32" class="menu-item menu-item-type-custom menu-item-object-custom"><div class="wrapBtn"><a href="..\..\casino-bonusar\index.htm" class="menu-link main-menu-link">Casino Bonusar</a></div></li>
+<li href="#" class="hideshow"><div class="more"><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></div><ul></ul></li></ul>				</nav>
+                
+                	
+	<div id="langMenu" class="linker"> 
+		<ul><li class="ca shrink" itemprop="sameAs"><a href="http://onlinecasinohex.ca/online-casinos/novomatic/" target="_blank">Novomatic Casinos & Slots | Free Novomatic casino games</a></li><li class="de shrink" itemprop="sameAs"><a href="http://onlinecasinohex.de/online-casinos/novomatic/" target="_blank">Novomatic Online Casino & Automatenspiele • Novomatic Spiele kostenlos</a></li><li class="fr shrink" itemprop="sameAs"><a href="http://casinoenlignehex.com/casino-en-ligne/novomatic/" target="_blank">Novomatic Machines à sous & Casino | Gratuit Novomatic Jeux Casino</a></li><li class="nl shrink" itemprop="sameAs"><a href="http://onlinecasinohex.nl/online-casinos/novomatic/" target="_blank">Novomatic Casino Spellen - Gratis Novomatic Gokkasten + Casino Lijst</a></li><li class="fi shrink" itemprop="sameAs"><a href="http://netticasinohex.fi/kasinot/novomatic/" target="_blank">Novomatic Kasinot ja Kolikkopelit | Ilmainen Novomatic kasinopelit</a></li><li class="search shrink" id="search"><a href="#">Hitta ditt spel!</a></li></ul>	</div>
+	
+                
+                <div id="searchContainer">
+                    <div class="ui-widget">
+                        <input type="text" id="tags" placeholder="Hitta ditt spel!" autofocus="">
+                        <button id="searchClose"></button>
+                    </div>
+                </div>
+                
+            </header>
+<div class="slider">
+    <div class="slide" style="background-image: url('http://casinohex.se/wp-content/uploads/casino-slots-bg.png');">
+		<div class="slide-inner wrap cf">
+			<div class="col hex-container">
+				<div class="hex-wrapper">
+					<div class="hex-frame"></div>
+					<div class="hex hex-one">
+						<div class="hex-one-inner">
+							<div class="hex-two-inner" style="background-image: url('http://casinohex.se/wp-content/uploads/slots-logo.svg');"></div>
+						</div>
+					</div>
+				</div>
+									<div class="game-rating"><span id="post-ratings-380000025" class="post-ratings" data-nonce="760f2ceaac"><img id="rating_380000025_1" src="..\..\wp-content\plugins\wp-postratings\images\stars_flat(png)\rating_on.png" alt="1 Star" title="1 Star" onmouseover="current_rating(380000025, 1, '1 Star');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;"><img id="rating_380000025_2" src="..\..\wp-content\plugins\wp-postratings\images\stars_flat(png)\rating_on.png" alt="2 Stars" title="2 Stars" onmouseover="current_rating(380000025, 2, '2 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;"><img id="rating_380000025_3" src="..\..\wp-content\plugins\wp-postratings\images\stars_flat(png)\rating_on.png" alt="3 Stars" title="3 Stars" onmouseover="current_rating(380000025, 3, '3 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;"><img id="rating_380000025_4" src="..\..\wp-content\plugins\wp-postratings\images\stars_flat(png)\rating_on.png" alt="4 Stars" title="4 Stars" onmouseover="current_rating(380000025, 4, '4 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;"><img id="rating_380000025_5" src="..\..\wp-content\plugins\wp-postratings\images\stars_flat(png)\rating_on.png" alt="5 Stars" title="5 Stars" onmouseover="current_rating(380000025, 5, '5 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;"> (ranking: <strong>5,00</strong>)</span><span id="post-ratings-380000025-loading" class="post-ratings-loading">
+			<img src="..\..\wp-content\plugins\wp-postratings\images\loading.gif" width="16" height="16" class="post-ratings-image">Loading...</span></div>
+							</div>
+			<div class="col info">
+				<h1>Novomatic</h1>
+				<div class="icon">
+					 <div class="hex-wrapper">
+						<div class="hex-frame"></div>
+						<div class="hex hex-one">
+							<div class="hex-one-inner">
+								<div class="hex-two-inner" style="background-image: url('http://casinohex.se/wp-content/uploads/slots-logo.svg');"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p><a href="#gratis-slots" class="scroll btn btn-green btn-choose" data-tab="gratis-slots">Välj Gratis Slots</a><a href="#online-casinon" class="scroll btn btn-grey btn-choose" data-tab="online-casinon">Välj Online Casinon</a>			</div>
+		   
+					</div>
+		<div class="mask"></div>
+    </div>
+</div>
+<div id="content">
+    <main id="main" class="cf" itemscope="" itemtype="http://schema.org/WebPage">
+
+        <ul class="tabs round">
+                            <li class="scroll tab-link current" data-tab="novomatic">
+                    <a href="#novomatic">Novomatic<icon class="icon tab-icon about"></icon></a>
+                </li>
+                            <li class="scroll tab-link " data-tab="gratis-slots">
+                    <a href="#gratis-slots">Gratis Slots<icon class="icon tab-icon gratis-slots"></icon></a>
+                </li>
+                            <li class="scroll tab-link " data-tab="online-casinon">
+                    <a href="#online-casinon">Online Casinon<icon class="icon tab-icon casino"></icon></a>
+                </li>
+                            <li class="scroll tab-link " data-tab="kasinospel">
+                    <a href="#kasinospel">Kasinospel<icon class="icon tab-icon games"></icon></a>
+                </li>
+                    </ul>
+
+        <div class="sections">
+            
+                            <section id="novomatic" class="toggle toggle-first toggle-opened">
+                    <div class="wrap cf">
+						<div class="d-3of4">
+							<h2>Vem är Novomatic för kasinospelindustriet</h2>
+<p>Med omsättningen på mer än 3,9 miljarder euro år 2015, är Novomatic koncernen en av de största integrerade konglomerat av den internationella spelindustrin. Grundades år 1980, består gruppen av närstående företag i 50 länder och export högteknologiska spelutrustning till mer än 80 länder.</p>
+<p>Under lång tid, hette Novomatic &#8221;Admiral&#8221;. Inom en kort tid utvecklings präglades nivå av kännare spelindustrin och företaget har tagit ledande position inom tillverkning av utrustning för spel anläggningar. Den första fasen av produktion baserades på delijer som beställs från brittiska producenter. Inom några år flyttade laget till den autonoma produktion av komponenter i Österrike. På den tiden var Admiral maskiner redan i bruk av aktiva spelare (inte online än).</p>
+<p>Inom Novomatic arbetar över 235.000 spelautomater i mer än 1.600 grupp operationer som kasinon och elektroniska kasinon och via hyres begrepp. Bland Novomatic verksamhet är de mest lönsamma schweiziska, tyska och tjeckiska kasinon. Gruppens dotterbolag Admiral Sportwetten GmbH är den största sports leverantör i Österrike med mer än 200 sportspel butiker. </p>
+<p>Gruppens dotterbolaget Greentube Internet Entertainment Solutions GmbH är den ledande fullserviceleverantören inom casino online Novomatic spel och underhållning marknadssegment och en pionjär inom utveckling och tillhandahållande av state-of-the-art spellösningar. Förutom huvudkontoret i Gumpoldskirchen, Niederösterreich, håller gruppen produktionsanläggningar och forsknings- och utvecklingscentra i Tyskland, Storbritannien, Tjeckien, Ungern och Polen. Novomatic sysselsätter cirka 24.000 anställda i hela världen och 3.300 anställda i Österrike.</p>
+<p>Konsekventa satsningar på forskning och utveckling, en iver att göra pionjärarbete, och en stark känsla av trender samt ett totalt åtagande till kvalitet gjorde Novomatic-teamet en viktig aktör på den internationella kasino spelindustrin. </p>
+<p>Ansvarsfullt spelande, starkt kundfokus, respekt och tekniska trendsättande byggde grunden för koncernens internationella framgångar i kasinos värld.</p>
+<h2>Novomatics chef och hur han blev den</h2>
+<p>Novomatic är ett internationellt spelbolag, som grundades av miljardären Johann Graf 1980. Graf är frånskild med tre barn och bor i Wien. Han samlar veteranbilar och äger några 120, varav de flesta är Jaguars. Den äldsta av hans tre barn är teknikchef på Novomatic. </p>
+<p>Enligt Forbes lista över globala miljardärer, noteras han på nummer 208 med en nettoförmögenhet på flera miljarder dollar i juli 2015.</p>
+<p>År 2012 var de totala intäkterna av Notomatic 3,2 miljarder euro och resultatet var 359 miljoner euro. Företaget har kontor i 43 länder och även till och med driver kasinon, inklusive på platser som Berlin och Santiago, Chile. Den Novomatic koncernen består av tre holdingbolag.</p>
+<h2>Novomatic korruption – ogrundade anklagelser!</h2>
+<p>Den senaste i en serie attacker mot Novomatic kommer från den rumänska åklagarmyndigheten. Nämligen, hävdar den rumänska antikorruptionsbyrån att det har varit en konflikt mellan den rumänska lotteri och Novomatic om driften av 10 tusen  spelautomater. Den påstådda affären anges att lotteriet måste ge placering och drift för Novomatic spelautomater i utbyte mot en andel av intäkterna. Affären garanterar förment minst 75 miljoner euro per år till den rumänska sidan, oavsett verksamhetens framgång.</p>
+<p>Problemet med det förmodade affären är att den rumänska lotteriet är ett statligt drivna företag, och därför känsliga för missbruk av offentliga tjänstemän. Åklagaren anser att Novomatics affären är till förfång för den rumänska lotteri och därför bör undersökas av Anti korruptionsbyrå.<br>
+Emellertid har en stor fråga åtalet, var affären aldrig förverkligas. Den rumänska Lottery kunde tillhandahålla platser för endast cirka 5 tusen spelautomater och resten av dem nådde aldrig operation. Så om det någonsin funnits en sådan affär, antalet installerade maskiner talar emot de uppgifter som lagts fram av åklagaren. Någon form av affärsuppgörelse mellan de rumänska statliga institutioner och Novomatic har definitivt uppnåtts men detaljerna är sannolikt skiljer sig från de som publicerats av några rumänska tidningar.</p>
+<h2>Vad slutade detta med för Novomatic?</h2>
+<p>Den troligaste förklaringen är att det har varit en iscensatt, negativ kampanj av vissa politiker och media mot vissa offentliga tjänstemän som används Novomatic som en syndabock för att skapa en korruptionsskandal. Denna skandal kom senare att användas för att få ner de tjänstemän och påverka den allmänna uppfattningen om regeringen.</p>
+<p>Den negativa kampanj mot en av kasino kungarna Novomatic gick så långt som att konfiskera några av de spelautomater utan en husrannsakan. Om vi ​​letar efter lagöverträdelser i detta fall bör vi sikta på denna olagliga konfiskering av maskinerna av staten utredare.</p>
+<h2>Novomatic är mot korruption!</h2>
+<p>Såvitt Novomatic korruption, oavsett hur den slutliga affären såg ut, Novomatic avvisar alla korruption anklagelser som affären granskades och godkändes av alla behöriga rumänska statliga organ. Såvitt Novomatic är berörd, har det uppfyllt alla sina skyldigheter, följt överenskommelsen standard rättsligt förfarande hela vägen upp till sitt godkännande av de högsta statliga myndigheter. Därför någon Ansvaret för de frågor som åtalet har med affären ligger squarelly med statliga myndigheter av Rumänien.</p>
+<p>Novomatic har spelat en viktig roll i kampen mot korruption i vissa av utvecklingsländerna det finns företag i så dessa anklagelser kände sig hemma från början. Novomatic har skapat en mycket framgångsrikt företag bolag, som sysselsätter tusentals människor, genom att följa öppna och lagliga affärsmetoder. Novomatic står fast vid sin praxis och sätt att bedriva verksamhet och kommer inte att ge efter för dessa falska, ogrundade anklagelser levereras av tvivelaktiga myndigheter.</p>
+<h2>Varför föredrar man att spela med Novomatic</h2>
+<p>Novomatic har filialer inte bara inom EU, inklusive Sverige, utan även i Afrika och Asien. Hög tillförlitlighet, utmärkt kvalitet och hållbarhet har alltid varit kännetecken av företagets produkter. Vi får inte glömma det enkla gränssnittet av Novomatics casino spelen, och det lockar inte bara fans av spel, utan också människor som inte tidigare varit bekant med denna industri.</p>
+<p>Spelutbudet var så stort att spelare ofta förväxlas inte bara spelnamn utan även reglerna för varje enskild kasino maskin. I Novomatics spelautomater är det kul att spela på nätet. Utgångshastigheten av maskiner utvecklaren riktigt små, som hjälper användaren att flöda innan att satsa en stor summa.</p>
+<h2>Till sist</h2>
+<p>Idag kan alla provspela i spelet på nätet, från vår sida till exempel. Man kan spela  utan att göra några finansiella investeringar, alltså gratis. Träningsläge finns i var och en av de spelautomater som finns på Internet.</p>
+<p>Kombinera innovativ arkitektur med kostnärliga operationer, Novomatic ger kasino spelaren möjlighet att uppleva morgondagens spel i dag!</p>
+						</div>
+                        <div class="infobox d-1of4 last-col">
+							<section id='crumbs' itemscope="" itemtype="http://schema.org/BreadcrumbList">    
+            <span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                <a itemprop="item" href="..\..\gratis-slots\index.htm">
+                    <span itemprop="name">Gratis Slots</span>
+                </a>
+                <meta itemprop="position" content="1">
+            </span>
+            <span id="delimiter">&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span>            <span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                <span class="current" itemprop="item">
+                    <span itemprop="name">Novomatic</span>
+                </span>
+                <meta itemprop="position" content="2">
+            </span>
+        
+        </section>							<h2>Gratis Slots Typer</h2>
+							<ul><li><a href="..\..\gratis-slots\3d-slots\index.htm">3D slots</a></li><li><a href="..\..\gratis-slots\klassiska-spelautomater\index.htm">Klassiska Spelautomater</a></li><li><a href="..\..\gratis-slots\mobila-spelautomater\index.htm">Mobila Spelautomater</a></li><li><a href="..\..\gratis-slots\video-slots\index.htm">Video Slots</a></li></ul>							<h2>Användbara länkar på Gratis Slots</h2>
+							<ul><li><a href="..\..\gratis-slots\riktiga-pengar\index.htm">Slots med riktiga pengar</a></li></ul>                        </div>
+                    </div>
+                    <div class="toggle-action">
+                        <button class="first btn shrink" data-tab="novomatic">Visa Mindre</button>
+                        <button class="second btn shrink" data-tab="novomatic" style="display:none;">Visa Mer</button>
+                    </div>
+                </section>
+                            <section id="gratis-slots">
+                    <div class="wrap cf">
+                        <h2>Lista med Gratis Slots</h2>
+                            <section class="nothing cf">
+        <h3>Ingenting här tyvärr </h3>
+    </section>
+                        <span class="postpend" data-args='{"post_type":"gratis-slots","post_status":"publish","posts_per_page":30,"offset":0,"developers":"novomatic"}' data-perpage="30" data-offset="30">
+                    </span></div>
+                </section>
+                            <section id="online-casinon">
+                    <div class="wrap cf">
+                        <h2>Lista med Online Casinon</h2>
+                        	
+	<div class="bonuses-container casinos-container">
+		
+		<div id="avial"><img src="..\..\wp-content\plugins\slot-bundle\images\flags\lv.png" class="country-flag" alt="LV country flag"> Latvia accepterat!</div>
+	
+				
+			<div class="casino-row">
+				<div class="casino-row-inner">
+					<div class="hex-wrapper hex-middle single">
+						<a href="..\leo-vegas\index.htm">
+							<div class="hex-frame"></div>
+							<div class="hex hex-one">
+								<div class="hex-one-inner">
+									<div class="hex-two-inner" style="background-image: url('../../wp-content/uploads/default/leo-vegas-casino-pa-natet-300x270.png');">
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="col one">
+						<a href="..\leo-vegas\index.htm">
+							<div class="col-value">
+								<p class="h3">Leo Vegas</p>
+							</div>
+							<div class="col-name">
+								<p>Casino Recension</p>
+							</div>
+						</a>
+					</div>
+					<div class="col two">
+						<div class="col-value icons-container">
+																<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Casino utan nedladdning" alt="Casino utan nedladdning icon">
+																		<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Live Casino" alt="Live Casino icon">
+																		<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Mobila Casinon" alt="Mobila Casinon icon">
+															</div>
+						<div class="col-name">
+							<p>Kasinotyper</p>
+						</div>
+					</div>
+					<div class="col three">
+						<div class="col-value">
+							<b>550 +</b>
+						</div>
+						<div class="col-name">
+							<p>Kasinospel</p>
+						</div>
+					</div>
+					<div class="col four">
+						<div class="col-value icons-container">
+																<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Gratis Spelautomaten" alt="gratis-spelautomaten icon">
+									 
+																	<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Roulett" alt="roulett icon">
+									 
+																	<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Blackjack" alt="blackjack icon">
+									 
+														</div>
+						<div class="col-name">
+							<p>Speltyper</p>
+						</div>
+					</div>
+					<div class="col five">
+						<div class="col-value">
+							<b>€1500</b>
+						</div>
+						<div class="col-name">
+							<p>Kasinobonus</p>
+						</div>
+					</div>
+					<div class="col six">
+						<div class="col-value">
+							<div class="button">
+								<noindex>
+									<button class="btn btn-green btn-tocasino" data-href="leo-vegas">
+										Besök Kasino										<figure class="arrow"></figure>
+									</button>
+								</noindex>
+							</div>
+						</div>
+						<div class="col-name">&nbsp;</div>
+					</div>
+				</div>
+			</div>
+			
+					
+			<div class="casino-row">
+				<div class="casino-row-inner">
+					<div class="hex-wrapper hex-middle single">
+						<a href="..\casumo\index.htm">
+							<div class="hex-frame"></div>
+							<div class="hex hex-one">
+								<div class="hex-one-inner">
+									<div class="hex-two-inner" style="background-image: url('../../wp-content/uploads/default/casumo-casino-pa-natet-300x270.png');">
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="col one">
+						<a href="..\casumo\index.htm">
+							<div class="col-value">
+								<p class="h3">Casumo</p>
+							</div>
+							<div class="col-name">
+								<p>Casino Recension</p>
+							</div>
+						</a>
+					</div>
+					<div class="col two">
+						<div class="col-value icons-container">
+																<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Casino utan nedladdning" alt="Casino utan nedladdning icon">
+																		<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Live Casino" alt="Live Casino icon">
+																		<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Mobila Casinon" alt="Mobila Casinon icon">
+															</div>
+						<div class="col-name">
+							<p>Kasinotyper</p>
+						</div>
+					</div>
+					<div class="col three">
+						<div class="col-value">
+							<b>700 +</b>
+						</div>
+						<div class="col-name">
+							<p>Kasinospel</p>
+						</div>
+					</div>
+					<div class="col four">
+						<div class="col-value icons-container">
+																<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Gratis Spelautomaten" alt="gratis-spelautomaten icon">
+									 
+																	<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Roulett" alt="roulett icon">
+									 
+																	<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Blackjack" alt="blackjack icon">
+									 
+																	<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Skraplotter" alt="skraplotter icon">
+									 
+														</div>
+						<div class="col-name">
+							<p>Speltyper</p>
+						</div>
+					</div>
+					<div class="col five">
+						<div class="col-value">
+							<b>€1200</b>
+						</div>
+						<div class="col-name">
+							<p>Kasinobonus</p>
+						</div>
+					</div>
+					<div class="col six">
+						<div class="col-value">
+							<div class="button">
+								<noindex>
+									<button class="btn btn-green btn-tocasino" data-href="casumo">
+										Besök Kasino										<figure class="arrow"></figure>
+									</button>
+								</noindex>
+							</div>
+						</div>
+						<div class="col-name">&nbsp;</div>
+					</div>
+				</div>
+			</div>
+			
+					
+			<div class="casino-row">
+				<div class="casino-row-inner">
+					<div class="hex-wrapper hex-middle single">
+						<a href="..\energycasino\index.htm">
+							<div class="hex-frame"></div>
+							<div class="hex hex-one">
+								<div class="hex-one-inner">
+									<div class="hex-two-inner" style="background-image: url('../../wp-content/uploads/default/energy-casino-casino-pa-natet-300x270.png');">
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="col one">
+						<a href="..\energycasino\index.htm">
+							<div class="col-value">
+								<p class="h3">EnergyCasino</p>
+							</div>
+							<div class="col-name">
+								<p>Casino Recension</p>
+							</div>
+						</a>
+					</div>
+					<div class="col two">
+						<div class="col-value icons-container">
+																<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Casino utan nedladdning" alt="Casino utan nedladdning icon">
+																		<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Live Casino" alt="Live Casino icon">
+																		<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Mobila Casinon" alt="Mobila Casinon icon">
+															</div>
+						<div class="col-name">
+							<p>Kasinotyper</p>
+						</div>
+					</div>
+					<div class="col three">
+						<div class="col-value">
+							<b>400 +</b>
+						</div>
+						<div class="col-name">
+							<p>Kasinospel</p>
+						</div>
+					</div>
+					<div class="col four">
+						<div class="col-value icons-container">
+																<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Gratis Spelautomaten" alt="gratis-spelautomaten icon">
+									 
+																	<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Roulett" alt="roulett icon">
+									 
+																	<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Blackjack" alt="blackjack icon">
+									 
+														</div>
+						<div class="col-name">
+							<p>Speltyper</p>
+						</div>
+					</div>
+					<div class="col five">
+						<div class="col-value">
+							<b>2000 SEK</b>
+						</div>
+						<div class="col-name">
+							<p>Kasinobonus</p>
+						</div>
+					</div>
+					<div class="col six">
+						<div class="col-value">
+							<div class="button">
+								<noindex>
+									<button class="btn btn-green btn-tocasino" data-href="energycasino">
+										Besök Kasino										<figure class="arrow"></figure>
+									</button>
+								</noindex>
+							</div>
+						</div>
+						<div class="col-name">&nbsp;</div>
+					</div>
+				</div>
+			</div>
+			
+					
+			<div class="casino-row">
+				<div class="casino-row-inner">
+					<div class="hex-wrapper hex-middle single">
+						<a href="..\jackpot-city\index.htm">
+							<div class="hex-frame"></div>
+							<div class="hex hex-one">
+								<div class="hex-one-inner">
+									<div class="hex-two-inner" style="background-image: url('../../wp-content/uploads/default/jackpotcity-casino-pa-natet-300x270.png');">
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="col one">
+						<a href="..\jackpot-city\index.htm">
+							<div class="col-value">
+								<p class="h3">Jackpot City</p>
+							</div>
+							<div class="col-name">
+								<p>Casino Recension</p>
+							</div>
+						</a>
+					</div>
+					<div class="col two">
+						<div class="col-value icons-container">
+																<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Live Casino" alt="Live Casino icon">
+																		<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Casino utan nedladdning" alt="Casino utan nedladdning icon">
+																		<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Mobila Casinon" alt="Mobila Casinon icon">
+																		<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Ladda ner casino" alt="Ladda ner casino icon">
+															</div>
+						<div class="col-name">
+							<p>Kasinotyper</p>
+						</div>
+					</div>
+					<div class="col three">
+						<div class="col-value">
+							<b>400 +</b>
+						</div>
+						<div class="col-name">
+							<p>Kasinospel</p>
+						</div>
+					</div>
+					<div class="col four">
+						<div class="col-value icons-container">
+																<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Blackjack" alt="blackjack icon">
+									 
+																	<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Roulett" alt="roulett icon">
+									 
+																	<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Skraplotter" alt="skraplotter icon">
+									 
+																	<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Gratis Spelautomaten" alt="gratis-spelautomaten icon">
+									 
+														</div>
+						<div class="col-name">
+							<p>Speltyper</p>
+						</div>
+					</div>
+					<div class="col five">
+						<div class="col-value">
+							<b>N/A</b>
+						</div>
+						<div class="col-name">
+							<p>Kasinobonus</p>
+						</div>
+					</div>
+					<div class="col six">
+						<div class="col-value">
+							<div class="button">
+								<noindex>
+									<button class="btn btn-green btn-tocasino" data-href="jackpot-city">
+										Besök Kasino										<figure class="arrow"></figure>
+									</button>
+								</noindex>
+							</div>
+						</div>
+						<div class="col-name">&nbsp;</div>
+					</div>
+				</div>
+			</div>
+			
+					
+			<div class="casino-row">
+				<div class="casino-row-inner">
+					<div class="hex-wrapper hex-middle single">
+						<a href="..\spin-palace\index.htm">
+							<div class="hex-frame"></div>
+							<div class="hex hex-one">
+								<div class="hex-one-inner">
+									<div class="hex-two-inner" style="background-image: url('../../wp-content/uploads/default/spin-palace-casino-pa-natet-300x270.png');">
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="col one">
+						<a href="..\spin-palace\index.htm">
+							<div class="col-value">
+								<p class="h3">Spin Palace</p>
+							</div>
+							<div class="col-name">
+								<p>Casino Recension</p>
+							</div>
+						</a>
+					</div>
+					<div class="col two">
+						<div class="col-value icons-container">
+																<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Live Casino" alt="Live Casino icon">
+																		<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Casino utan nedladdning" alt="Casino utan nedladdning icon">
+																		<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Mobila Casinon" alt="Mobila Casinon icon">
+																		<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Ladda ner casino" alt="Ladda ner casino icon">
+															</div>
+						<div class="col-name">
+							<p>Kasinotyper</p>
+						</div>
+					</div>
+					<div class="col three">
+						<div class="col-value">
+							<b>400 +</b>
+						</div>
+						<div class="col-name">
+							<p>Kasinospel</p>
+						</div>
+					</div>
+					<div class="col four">
+						<div class="col-value icons-container">
+																<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Roulett" alt="roulett icon">
+									 
+																	<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Skraplotter" alt="skraplotter icon">
+									 
+																	<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Gratis Spelautomaten" alt="gratis-spelautomaten icon">
+									 
+														</div>
+						<div class="col-name">
+							<p>Speltyper</p>
+						</div>
+					</div>
+					<div class="col five">
+						<div class="col-value">
+							<b>N/A</b>
+						</div>
+						<div class="col-name">
+							<p>Kasinobonus</p>
+						</div>
+					</div>
+					<div class="col six">
+						<div class="col-value">
+							<div class="button">
+								<noindex>
+									<button class="btn btn-green btn-tocasino" data-href="spin-palace">
+										Besök Kasino										<figure class="arrow"></figure>
+									</button>
+								</noindex>
+							</div>
+						</div>
+						<div class="col-name">&nbsp;</div>
+					</div>
+				</div>
+			</div>
+			
+					
+	</div>
+                        <span class="postpend" data-args='{"post_type":"online-casinon","post_status":"publish","posts_per_page":5,"offset":0,"meta_query":[{"key":"show_hide","value":"show"}],"tax_query":{"relation":"AND","0":{"taxonomy":"post_format","field":"slug","terms":["post-format-aside"],"operator":"NOT IN"},"1":{"taxonomy":"developers","field":"id","terms":[23,24,25],"operator":"IN"}}}' data-perpage="30" data-offset="30">
+                    </span></div>
+                </section>
+                            <section id="kasinospel">
+                    <div class="wrap cf">
+                        <h2>Lista med Kasinospel</h2>
+                            <section class="nothing cf">
+        <h3>Ingenting här tyvärr </h3>
+    </section>
+                        <span class="postpend" data-args='{"post_type":["casino-bonusar","online-roulette","blackjack-online","skraplotter-online","video-poker","online-craps"],"post_status":"publish","posts_per_page":30,"offset":0,"developers":"novomatic"}' data-perpage="30" data-offset="30">
+                    </span></div>
+                </section>
+            
+        </div>	    
+
+        <meta itemprop="name" content="Novomatic">
+        <meta itemprop="description" content="Vem är Novomatic för kasinospelindustriet
+Med omsättningen på mer än 3,9 miljarder euro år 2015, är Novomatic koncernen en av de största integrerade konglomerat av den internationella spelindustrin. Grundades år 1980, består gruppen av när...">
+        <meta itemprop="url" content="http://casinohex.se/online-casinon/novomatic/">
+        <span itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+            <meta itemprop="bestRating" content="5">
+            <meta itemprop="ratingValue" content="5">
+            <meta itemprop="ratingCount" content="69">
+            <meta itemprop="reviewCount" content="69">
+        </span>
+
+    </main>
+</div>
+
+			<footer class="footer">
+				<div id="inner-footer" class="wrap cf">
+					<ul class="source-org copyright">
+						<li>2016 &copy; Casino HEX</li>
+						<li>Eftertryck Förbjudes</li>
+						<li><a href="#">Integritetspolicy</a></li>
+						<li><a href="..\..\sitemap\index.htm">Sitemap</a></li>
+						<li><a href="..\..\kontakter\index.htm">Kontakter</a></li>
+						<li id="socialsMenu">	
+	<ul>
+		<li class="fb shrink"><a href="" target="_blank">Online Casino HEX - Facebook</a></li>
+		<li class="gp shrink"><a href="" target="_blank">Online Casino HEX - Google+</a></li>
+		<li class="pn shrink"><a href="" target="_blank">Online Casino HEX - Pinterest</a></li>
+		<li class="tw shrink"><a href="" target="_blank">Online Casino HEX - Twitter</a></li>
+		<li class="yt shrink"><a href="" target="_blank">Online Casino HEX - Youtube</a></li>
+	</ul>
+	
+</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+
+        <script type='text/javascript'>
+/* <![CDATA[ */
+var ratingsL10n = {"plugin_url":"http:\/\/casinohex.se\/wp-content\/plugins\/wp-postratings","ajax_url":"http:\/\/casinohex.se\/wp-admin\/admin-ajax.php","text_wait":"Please rate only 1 post at a time.","image":"stars_flat(png)","image_ext":"png","max":"5","show_loading":"1","show_fading":"1","custom":"0"};
+var ratings_mouseover_image=new Image();ratings_mouseover_image.src=ratingsL10n.plugin_url+"/images/"+ratingsL10n.image+"/rating_over."+ratingsL10n.image_ext;;
+/* ]]> */
+</script>
+<script type='text/javascript' src='..\..\wp-content\plugins\wp-postratings\postratings-js.js'></script>
+<script type='text/javascript' src='..\..\wp-content\themes\hex3\library\js\pageslide.js'></script>
+<script type='text/javascript' src='..\..\wp-content\themes\hex3\library\js\scripts.js'></script>
+<script type='text/javascript' src='..\..\wp-content\themes\hex3\library\js\smooth.js'></script>
+<script type='text/javascript' src='..\..\wp-content\themes\hex3\library\js\jquery-ui.js'></script>
+<script type='text/javascript' src='..\..\wp-content\themes\hex3\library\js\arrowUp.js'></script>
+<script type='text/javascript' src='..\..\wp-includes\js\wp-embed.min.js'></script>
+		
+		<script>
+			jQuery(document).ready(function($) {
+				
+				$('.btn-tocasino').click(function(e){
+					e.preventDefault();
+					var href = '/goto/'+$(this).attr('data-href')+'-direct';
+					window.open(href);
+				});
+				
+				$('#search').click(function(){
+					if($('#searchContainer').hasClass('opened')){
+						$('#searchContainer').fadeOut(300);
+						$('#searchContainer').removeClass('opened');
+						$('#search').removeClass('opened');
+					}
+					else{
+						$('#searchContainer').fadeIn(300);
+						$('#searchContainer').addClass('opened');
+						$('#search').addClass('opened');
+												
+						$(function() {
+							
+							$( "#tags" ).autocomplete({
+								source: 'http://casinohex.se/wp-content/themes/hex3/search-source.php',
+								minLength:3,
+								open: function () { $('ul.ui-autocomplete').addClass('opened') },
+								close: function () { 
+									$('ul.ui-autocomplete')
+									.removeClass('opened')
+									.css('display','block'); 
+								}
+							}).data( "ui-autocomplete" )._renderItem = function( ul, item ) {
+								return $( "<li></li>" ).data( "item.ui-autocomplete", item ).append("<a href='" + item.link + "'><img src=\"" + item.image + "\"/><span>" + item.value + "</span></a>").appendTo( ul );
+								
+							};
+							
+						});
+					}
+				});
+			});
+			jQuery(document).ready(function($) {
+				hex_postpend({ 
+					action:'postpend',
+					secure:'7abefbd3f1'
+				});
+			});
+		</script>
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-K3J2J8');</script>
+		<!-- End Google Tag Manager -->	
+    </body>
+</html> <!-- end of site. what a ride! -->
+
+<!-- Dynamic page generated in 0.673 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2016-12-07 12:17:37 -->
+
+<!-- super cache -->

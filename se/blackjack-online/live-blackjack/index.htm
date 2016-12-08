@@ -1,0 +1,750 @@
+﻿<!doctype html>
+
+    <!--[if lt IE 7]><html lang="sv-SE" class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+    <!--[if (IE 7)&!(IEMobile)]><html lang="sv-SE" class="no-js lt-ie9 lt-ie8"><![endif]-->
+    <!--[if (IE 8)&!(IEMobile)]><html lang="sv-SE" class="no-js lt-ie9"><![endif]-->
+    <!--[if gt IE 8]><!--> <html lang="sv-SE" class="no-js"><!--<![endif]-->
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+                <title>  Blackjack Typer  Live blackjack</title>
+        <link rel="apple-touch-icon" sizes="57x57" href="..\..\wp-content\themes\hex3\library\favicons\apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="..\..\wp-content\themes\hex3\library\favicons\apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="..\..\wp-content\themes\hex3\library\favicons\apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="..\..\wp-content\themes\hex3\library\favicons\apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="..\..\wp-content\themes\hex3\library\favicons\apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="..\..\wp-content\themes\hex3\library\favicons\apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="..\..\wp-content\themes\hex3\library\favicons\apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="..\..\wp-content\themes\hex3\library\favicons\apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="..\..\wp-content\themes\hex3\library\favicons\apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" href="..\..\wp-content\themes\hex3\library\favicons\favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="..\..\wp-content\themes\hex3\library\favicons\android-chrome-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="..\..\wp-content\themes\hex3\library\favicons\favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="..\..\wp-content\themes\hex3\library\favicons\favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="..\..\wp-content\themes\hex3\library\favicons\manifest.json">
+        <link rel="mask-icon" href="..\..\wp-content\themes\hex3\library\favicons\safari-pinned-tab.svg" color="#44b758">
+        <link rel="shortcut icon" href="..\..\wp-content\themes\hex3\library\favicons\favicon.ico">
+
+
+        <meta name="msapplication-TileColor" content="#44b758">
+        <meta name="msapplication-TileImage" content="http://casinohex.se/wp-content/themes/hex3/library/favicons/mstile-144x144.png">
+        <meta name="msapplication-config" content="http://casinohex.se/wp-content/themes/hex3/library/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#44b758">
+				
+                <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+        <meta name="google-site-verification" content="IlI_x2ooN5XbRPOErUvbskSTiREMXjaQJMtYrayjM9o">
+		<meta name="msvalidate.01" content="4BE6CF4EB17DE09748C5C031100819F8">
+		<meta name="p:domain_verify" content="48932c5881ab9fcc753f0b345b62159c">
+
+        <link rel='dns-prefetch' href='//s.w.org'>
+<link rel='stylesheet' id='wp-postratings-css' href='..\..\wp-content\plugins\wp-postratings\postratings-css.css' type='text/css' media='all'>
+<link rel='stylesheet' id='wp-pagenavi-css' href='..\..\wp-content\plugins\wp-pagenavi\pagenavi-css.css' type='text/css' media='all'>
+<link rel='stylesheet' id='hex-normalize-css' href='..\..\wp-content\themes\hex3\library\css\normalize.css' type='text/css' media='all'>
+<link rel='stylesheet' id='hex-grid-css' href='..\..\wp-content\themes\hex3\library\css\grid.css' type='text/css' media='all'>
+<link rel='stylesheet' id='hex-inputs-css' href='..\..\wp-content\themes\hex3\library\css\inputs.css' type='text/css' media='all'>
+<link rel='stylesheet' id='hex-stylesheet-css' href='..\..\wp-content\themes\hex3\library\css\style.css' type='text/css' media='all'>
+<link rel='stylesheet' id='hex-local-css' href='..\..\wp-content\themes\hex3\library\css\local.css' type='text/css' media='all'>
+<link rel='stylesheet' id='jquery-ui-css' href='..\..\wp-content\themes\hex3\library\css\jquery-ui.css' type='text/css' media='all'>
+<script type='text/javascript' src='..\..\wp-includes\js\jquery\jquery.js'></script>
+<script type='text/javascript' src='..\..\wp-includes\js\jquery\jquery-migrate.min.js'></script>
+<script type='text/javascript' src='..\..\wp-content\themes\hex3\library\js\libs\modernizr.custom.min.js'></script>
+<link rel='https://api.w.org/' href='..\..\wp-json\index.htm'>
+<style>.htsm-row{display:block;margin-bottom:1em;overflow:hidden;background:rgba(255,255,255,0.03);padding:20px;box-shadow:1px 1px 5px #000;}.htsm-row ul,.htsm-single li{display:block;width:100%;}.htsm-row ul li{display:block;float:left;width:50%;padding:0 0.5em 0.5em 0.5em;}.htsm-row h2,.htsm-row h3{display:block;width:100%;color:#87ee87;margin: 0 0 1em 0;}.htsm-row h2 a,.htsm-row h3 a{color:#87ee87;}@media only screen and (min-width: 768px){.htsm-row ul li{width:33.3%}}@media only screen and (min-width: 1240px){.htsm-row ul li{width:25%}}@media only screen and (min-width: 1600px){.htsm-row ul li{width:20%}}</style><!-- tidekey -->
+<!-- ogp default -->
+<meta property="og:type" content="article">
+<!-- ******* -->
+    </head>
+
+    <body class="archive tax-blackjack-types term-live-blackjack term-20 sv-SE desktop">
+        
+        <div id="container">
+                           
+            <header class="header" itemscope="" itemtype="http://schema.org/Organization">
+                
+                <a href="..\..\index.htm" id="siteLogo">
+                    <img src="..\..\wp-content\themes\hex3\library\images\site-logo-new.png" itemprop="logo" alt="Casino HEX">
+                </a>
+                
+                <div id="navToggle"><i class="fa fa-bars"></i></div>
+                
+                <nav id="mainNavigation" data-back="back!" class="">
+					<ul id="menu-top_menu" class="menu desktop"><li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><div class="wrapBtn"><a href="..\..\gratis-slots\index.htm" class="menu-link main-menu-link">Gratis Slots</a><span class="ddArrow"><i class="fa fa-caret-down "></i></span></div>
+<ul class="sub-menu"><li class="back"><a href="#">back!</a><span class="ddArrow"><i class="fa fa-arrow-left"></i></span></li>
+	<li id="menu-item-5131" class="menu-item menu-item-type-custom menu-item-object-custom"><div class="wrapBtn"><a href="..\..\gratis-slots\video-slots\index.htm" class="menu-link sub-menu-link">VIdeo Slots</a></div></li>
+	<li id="menu-item-5130" class="menu-item menu-item-type-custom menu-item-object-custom"><div class="wrapBtn"><a href="..\..\gratis-slots\klassiska-spelautomater\index.htm" class="menu-link sub-menu-link">Klassiska Spelautomater</a></div></li>
+</ul>
+</li>
+<li id="menu-item-4261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children sub"><div class="wrapBtn"><a href="..\..\casinospel-pa-natet\index.htm" class="menu-link main-menu-link">Casinospel på Nätet</a><span class="ddArrow"><i class="fa fa-caret-down "></i></span></div>
+<ul class="sub-menu"><li class="back"><a href="#">back!</a><span class="ddArrow"><i class="fa fa-arrow-left"></i></span></li>
+	<li id="menu-item-33" class="menu-item menu-item-type-custom menu-item-object-custom"><div class="wrapBtn"><a href="..\..\online-roulette\index.htm" class="menu-link sub-menu-link">Online Roulette</a></div></li>
+	<li id="menu-item-4260" class="menu-item menu-item-type-custom menu-item-object-custom"><div class="wrapBtn"><a href="..\index.htm" class="menu-link sub-menu-link">Blackjack Online</a></div></li>
+	<li id="menu-item-4259" class="menu-item menu-item-type-custom menu-item-object-custom"><div class="wrapBtn"><a href="..\..\video-poker\index.htm" class="menu-link sub-menu-link">Video Poker</a></div></li>
+	<li id="menu-item-4262" class="menu-item menu-item-type-custom menu-item-object-custom"><div class="wrapBtn"><a href="..\..\skraplotter-online\index.htm" class="menu-link sub-menu-link">Skraplotter Online</a></div></li>
+</ul>
+</li>
+<li id="menu-item-30" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub"><div class="wrapBtn"><a href="..\..\online-casinon\index.htm" class="menu-link main-menu-link">Online Casinon</a><span class="ddArrow"><i class="fa fa-caret-down "></i></span></div>
+<ul class="sub-menu"><li class="back"><a href="#">back!</a><span class="ddArrow"><i class="fa fa-arrow-left"></i></span></li>
+	<li id="menu-item-5126" class="menu-item menu-item-type-post_type menu-item-object-online-casinon"><div class="wrapBtn"><a href="..\..\online-casinon\basta-natcasino\index.htm" class="menu-link sub-menu-link">Bästa Casino</a></div></li>
+	<li id="menu-item-5127" class="menu-item menu-item-type-post_type menu-item-object-online-casinon"><div class="wrapBtn"><a href="..\..\online-casinon\regler\index.htm" class="menu-link sub-menu-link">Casino Regler</a></div></li>
+	<li id="menu-item-5128" class="menu-item menu-item-type-post_type menu-item-object-online-casinon"><div class="wrapBtn"><a href="..\..\online-casinon\riktiga-pengar\index.htm" class="menu-link sub-menu-link">Casino riktiga pengar</a></div></li>
+	<li id="menu-item-5129" class="menu-item menu-item-type-post_type menu-item-object-online-casinon"><div class="wrapBtn"><a href="..\..\online-casinon\gratis-casino\index.htm" class="menu-link sub-menu-link">Gratis Casino</a></div></li>
+</ul>
+</li>
+<li id="menu-item-32" class="menu-item menu-item-type-custom menu-item-object-custom"><div class="wrapBtn"><a href="..\..\casino-bonusar\index.htm" class="menu-link main-menu-link">Casino Bonusar</a></div></li>
+<li href="#" class="hideshow"><div class="more"><i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i></div><ul></ul></li></ul>				</nav>
+                
+                	
+	<div id="langMenu" class="linker"> 
+		<ul><li class="search shrink" id="search"><a href="#">Hitta ditt spel!</a></li></ul>	</div>
+	
+                
+                <div id="searchContainer">
+                    <div class="ui-widget">
+                        <input type="text" id="tags" placeholder="Hitta ditt spel!" autofocus="">
+                        <button id="searchClose"></button>
+                    </div>
+                </div>
+                
+            </header>
+<div class="slider">
+    <div class="slide" style="background-image: url('');">
+		<div class="slide-inner wrap cf">
+			<div class="col hex-container">
+				<div class="hex-wrapper">
+					<div class="hex-frame"></div>
+					<div class="hex hex-one">
+						<div class="hex-one-inner">
+							<div class="hex-two-inner" style="background-image: url('http://casinohex.se/wp-content/uploads/default/online-blackjack-logo.svg');"></div>
+						</div>
+					</div>
+				</div>
+									<div class="game-rating"><span id="post-ratings-380000020" class="post-ratings" data-nonce="1a27a469d6"><img id="rating_380000020_1" src="..\..\wp-content\plugins\wp-postratings\images\stars_flat(png)\rating_on.png" alt="1 Star" title="1 Star" onmouseover="current_rating(380000020, 1, '1 Star');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;"><img id="rating_380000020_2" src="..\..\wp-content\plugins\wp-postratings\images\stars_flat(png)\rating_on.png" alt="2 Stars" title="2 Stars" onmouseover="current_rating(380000020, 2, '2 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;"><img id="rating_380000020_3" src="..\..\wp-content\plugins\wp-postratings\images\stars_flat(png)\rating_on.png" alt="3 Stars" title="3 Stars" onmouseover="current_rating(380000020, 3, '3 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;"><img id="rating_380000020_4" src="..\..\wp-content\plugins\wp-postratings\images\stars_flat(png)\rating_on.png" alt="4 Stars" title="4 Stars" onmouseover="current_rating(380000020, 4, '4 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;"><img id="rating_380000020_5" src="..\..\wp-content\plugins\wp-postratings\images\stars_flat(png)\rating_on.png" alt="5 Stars" title="5 Stars" onmouseover="current_rating(380000020, 5, '5 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;"> (ranking: <strong>5,00</strong>)</span><span id="post-ratings-380000020-loading" class="post-ratings-loading">
+			<img src="..\..\wp-content\plugins\wp-postratings\images\loading.gif" width="16" height="16" class="post-ratings-image">Loading...</span></div>
+							</div>
+			<div class="col info">
+				<h1>Live blackjack</h1>
+				<div class="icon">
+					 <div class="hex-wrapper">
+						<div class="hex-frame"></div>
+						<div class="hex hex-one">
+							<div class="hex-one-inner">
+								<div class="hex-two-inner" style="background-image: url('http://casinohex.se/wp-content/uploads/default/online-blackjack-logo.svg');"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p><a href="#lista-med-blackjack-online-spel" class="scroll btn btn-green btn-choose" data-tab="lista-med-blackjack-online-spel">Välj Blackjack Online</a><a href="#spela-for-riktiga-pengar" class="scroll btn btn-grey btn-choose" data-tab="spela-for-riktiga-pengar">Välj Online Casinon</a>			</div>
+		   
+					</div>
+		<div class="mask"></div>
+    </div>
+</div>
+<div id="content">
+    <main id="main" class="cf" itemscope="" itemtype="http://schema.org/WebPage">
+
+        <ul class="tabs round">
+                            <li class="scroll tab-link current" data-tab="live-blackjack">
+                    <a href="#live-blackjack">Live blackjack<icon class="icon tab-icon about"></icon></a>
+                </li>
+                            <li class="scroll tab-link " data-tab="lista-med-blackjack-online-spel">
+                    <a href="#lista-med-blackjack-online-spel">Lista med Blackjack Online spel<icon class="icon tab-icon list"></icon></a>
+                </li>
+                            <li class="scroll tab-link " data-tab="spela-for-riktiga-pengar">
+                    <a href="#spela-for-riktiga-pengar">Spela för Riktiga Pengar<icon class="icon tab-icon real"></icon></a>
+                </li>
+                    </ul>
+
+        <div class="sections">
+            
+                            <section id="live-blackjack" class="toggle toggle-first toggle-opened">
+                    <div class="wrap cf">
+						<div class="d-3of4">
+							<p>Om du vill få omedelbar återkoppling på hur du spelar du kan hitta blackjack tränare på nätet. Du kan köpa en från återförsäljare eller hitta enkel kundanpassade program på nätet som individer har gjort för deras hemsida eller bloggar. Dessa är normalt byggd för att en enkel konstruktion för att utforska matematik och strategi bakom blackjack.</p>
+<p>Varför skriver vi detta? För att innan du spelar blackjack live får du spela och träna.  Live blackjack finns inte gratis. Så förberedda dig mentallt tack.</p>
+<h2>Vad är blackjack med live dealer?</h2>
+<p>De flesta online kasinon med live återförsäljare ska ha blackjack på sin lista över live streamade spel, antingen i sin klassiska form (7 säte, multi-player bord) eller som en &#8221;en till många&#8221; version med en något förändrad affär konvention för att möjliggöra en enda återförsäljare att hantera för många spelare. Det sistnämnda är förmodligen inte för purister, men från en regel synpunkt fortfarande en omgång blackjack.</p>
+<p>När det gäller blackjack med live dealer med 7 säte, under tider kan det vara svårt att få en plats på vissa kasinon (ett problem som du aldrig kommer att stöta på en live baccarat eller live roulette bord!), Även om större plattformar / kasinon ständigt lägga till fler tabeller, och i vissa fall dedikerade rum som innehåller många blackjack bord att hantera spelare efterfrågan.</p>
+<h2>Speciella drag av live blackjack</h2>
+<p>Det verkar som ägare av online kasinon kommer inte att sluta förvåna sina besökare, eftersom de vill erbjuda då endast underhållning och roligt. När de bestämde sig för att lägga till mer realistiska funktioner för onlinespel och spelare har fått en chans att spela live blackjack och några andra kasinospel på nätet. Live spel är betydligt mer spännande än traditionella online-versioner av kasinospel. I online blackjack live casino kan en spelare verkligen känna dig som i vissa landbaserade casino, eftersom han / hon kan se andra spelare och live återförsäljare, som kör spelet. Möjligheten att kommunicera med andra spelare och dealern och spela i den bekväma atmosfären i ditt hem gör live spelande mycket populär bland kanadensiska spelare.</p>
+<p>Live blackjack spel från alla stora plattformar representerade i nedanstående galleriet. För alla betalar Blackjack 3:2. Det är där korrelationen slutar. Live dealer blackjack är ett av de bästa tillägg till online spelmarknaden sedan den första online casino lanserades på 1990-talet.</p>
+<p>Ett live blackjack spel online måste hitta en balans mellan två ytterligheter. Det fysiskt inte kan ha alla de faktorer som går in i ett spel i den verkliga världen och, samtidigt, är designers driver att komma bort från den vanliga digital-only format. Just nu, de verkar ha hittat en stor kompromiss. Du har fortfarande en bild av en tabell som bara finns i cyberrymden. Detta är ett viktigt verktyg för att göra satsningar och se till att spelet flyter. Emellertid har skärmen även en låda för strömmande video, där du kan se en riktig dealer kör spelet.</p>
+<p>Dessa spel använder inte en billig uppsättning förinspelad video för att liva upp en datorgenererad spel. Videon du ser är en direktsändning av en återförsäljare som är specifikt igång spelet från en annan plats. Du kan även chatta med dem om du är övertygade. Blackjack med live återförsäljare som detta tar dig så nära som möjligt till det roliga och spännande casinoupplevelse du förväntar dig. Det känns verkligen som om de kan överföra ett riktigt kasino rakt in i ditt hem! Förutom blackjack, de flesta av dessa platser har andra live bordsspel som live roulette och live dealer baccarat.</p>
+<h2>Lagar och regler för live blackjack</h2>
+<p>Varje land har sin egen unika uppsättning av lagar och regler för onlinespel. Dessa lagar skapa en situation där vissa live återförsäljare kasinon finns i vissa områden och inte finns i andra områden. Du behöver forska i lagarna i ditt land innan du spelar för riktiga pengar. Om det är Sverige du spelar på – ta det lung, det är bra utan förskning.</p>
+<p>Om du inte vet vilka online kasinon erbjuder spel i ditt land, det är ett snabbt och enkelt sätt att ta reda på och se om du kan göra en insättning. Om du kan få pengar till ett online casino de erbjuder spel där du bor. Detta betyder inte alltid det är lagligt, men spelarna i de flesta länder inte behöver oroa sig för åtal. På vår sajt presenterar vi kasinon som du kan spela på.</p>
+<p>De flesta länder är mer intresserade av ägare och operatörer, inte spelarna när de börjar försöka att stänga online-kasinon. Men detta betyder inte att du ska vara säker bara för att andra spelare har varit. Kontakta en advokat eller jurist om du har några funderingar eller frågor.</p>
+<p>Varje online casino har blackjack drivs av programvaran, men nu kan du hitta de som erbjuder live återförsäljare visas med hjälp av strömmande Internet-teknik och kameror i realtid.<br>
+I de flesta sätt är det samma som att sitta ner på din lokala kasino och spela ett par händer blackjack, men du behöver aldrig lämna ditt hus. Du kan även spela på språng, med din surfplatta eller smartmobil. Live online blackjack har äntligen kommit. När du har provat det, kommer du aldrig gå tillbaka till dina gamla kasinon igen.</p>
+<h2>Omsättningskrav i live blackjackspel</h2>
+<p>Om du aldrig har hört talas om satsningskrav, då kan du vara i för en chock när du försöker ta ut eventuella vinster du gjort med din bonus. Jag vet det för att det var så den första gången jag spelade på ett online casino! Enkelt uttryckt, måste du spela igenom din bonus ett visst antal gånger innan du kan ta ut några pengar du har vunnit. Detta är ett område där du verkligen behöver veta var du står för att undvika besvikelse och frustration. Vissa kasinon kommer att lura dig in med en stor bonus, som nominellt sett verkar vara ett bra erbjudande, men om du sedan reda på att du måste spela igenom din bonus 100 gånger, du kan aldrig få tag på dina pengar. I live blackjack med riktiga pengar kan du inte spela utan att ha betalt. </p>
+<h2>Varför välja live blackjack med riktig återförsäljare?</h2>
+<p>Som vi har sagt, i live blackjack kan du se en blackjack dealer, en person, som handlar kort, och du kan även kommunicera med honom / henne via chatt. Live blackjack online skiljer sig inte från sina online versioner och har samma regler. Dock är spänningen från att spela online blackjack bor i en riktiga pengar casino svårt att jämföra med något annat.</p>
+<p>Människor, som bestämmer sig för att försöka live online blackjack bör förstå att moderna videotekniker är dyra och återförsäljare måste också hans / hennes betalning, det är därför du inte kommer att se låga insatser nära online blackjack hjulet. Det är uppenbart att den realistiska aspekten av spelet innebär ett mindre antal händer som du kan spela för en bestämd tid också.</p>
+<p>Men sanna fans av blackjack föredrar den här typen av spel till andra. Vår sajt  är redo att hjälpa dem och erbjuder vår lista över de bästa live kasinon 2016 i Sverige. I dessa kontrolleras kasinon kan du enkelt spela live blackjack för riktiga pengar samt andra kasinospel på luft så att säga. Kom ihåg att i varje live kasino kan du spela blackjack för endast riktiga pengar. Du kommer inte hitta fria versioner av spelet här. Så väljer ett live casino du gillar och låt lycka vara med dig!</p>
+						</div>
+                        <div class="infobox d-1of4 last-col">
+							<section id='crumbs' itemscope="" itemtype="http://schema.org/BreadcrumbList">    
+            <span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                <a itemprop="item" href="..\index.htm">
+                    <span itemprop="name">Blackjack Online</span>
+                </a>
+                <meta itemprop="position" content="1">
+            </span>
+            <span id="delimiter">&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span>            <span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                <span class="current" itemprop="item">
+                    <span itemprop="name">Live blackjack</span>
+                </span>
+                <meta itemprop="position" content="2">
+            </span>
+        
+        </section>							<h2>Blackjack Online Typer</h2>
+							<ul><li><a href="index.htm">Live blackjack</a></li></ul>							<h2>Användbara länkar på Blackjack Online</h2>
+							<ul><li><a href="..\gratis-blackjack\index.htm">Gratis blackjack</a></li><li><a href="..\blackjack-pa-riktiga-pengar\index.htm">Blackjack på riktiga pengar</a></li><li><a href="..\blackjack-strategi\index.htm">Blackjack strategi</a></li></ul>                        </div>
+                    </div>
+                    <div class="toggle-action">
+                        <button class="first btn shrink" data-tab="live-blackjack">Visa Mindre</button>
+                        <button class="second btn shrink" data-tab="live-blackjack" style="display:none;">Visa Mer</button>
+                    </div>
+                </section>
+                            <section id="lista-med-blackjack-online-spel">
+                    <div class="wrap cf">
+                        <h2>Lista med Blackjack Online</h2>
+                            <section class="nothing cf">
+        <h3>Ingenting här tyvärr </h3>
+    </section>
+                        <span class="postpend" data-args='{"post_type":"blackjack-online","post_status":"publish","posts_per_page":30,"offset":0,"blackjack-types":"live-blackjack"}' data-perpage="30" data-offset="30">
+                    </span></div>
+                </section>
+                            <section id="spela-for-riktiga-pengar">
+                    <div class="wrap cf">
+                        <h2>Lista med Online Casinon</h2>
+                        	
+	<div class="bonuses-container casinos-container">
+		
+		<div id="avial"><img src="..\..\wp-content\plugins\slot-bundle\images\flags\lv.png" class="country-flag" alt="LV country flag"> Latvia accepterat!</div>
+	
+				
+			<div class="casino-row">
+				<div class="casino-row-inner">
+					<div class="hex-wrapper hex-middle single">
+						<a href="..\..\online-casinon\leo-vegas\index.htm">
+							<div class="hex-frame"></div>
+							<div class="hex hex-one">
+								<div class="hex-one-inner">
+									<div class="hex-two-inner" style="background-image: url('../../wp-content/uploads/default/leo-vegas-casino-pa-natet-300x270.png');">
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="col one">
+						<a href="..\..\online-casinon\leo-vegas\index.htm">
+							<div class="col-value">
+								<p class="h3">Leo Vegas</p>
+							</div>
+							<div class="col-name">
+								<p>Casino Recension</p>
+							</div>
+						</a>
+					</div>
+					<div class="col two">
+						<div class="col-value icons-container">
+																<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Casino utan nedladdning" alt="Casino utan nedladdning icon">
+																		<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Live Casino" alt="Live Casino icon">
+																		<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Mobila Casinon" alt="Mobila Casinon icon">
+															</div>
+						<div class="col-name">
+							<p>Kasinotyper</p>
+						</div>
+					</div>
+					<div class="col three">
+						<div class="col-value">
+							<b>550 +</b>
+						</div>
+						<div class="col-name">
+							<p>Kasinospel</p>
+						</div>
+					</div>
+					<div class="col four">
+						<div class="col-value icons-container">
+																<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Gratis Spelautomaten" alt="gratis-spelautomaten icon">
+									 
+																	<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Roulett" alt="roulett icon">
+									 
+																	<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Blackjack" alt="blackjack icon">
+									 
+														</div>
+						<div class="col-name">
+							<p>Speltyper</p>
+						</div>
+					</div>
+					<div class="col five">
+						<div class="col-value">
+							<b>€1500</b>
+						</div>
+						<div class="col-name">
+							<p>Kasinobonus</p>
+						</div>
+					</div>
+					<div class="col six">
+						<div class="col-value">
+							<div class="button">
+								<noindex>
+									<button class="btn btn-green btn-tocasino" data-href="leo-vegas">
+										Besök Kasino										<figure class="arrow"></figure>
+									</button>
+								</noindex>
+							</div>
+						</div>
+						<div class="col-name">&nbsp;</div>
+					</div>
+				</div>
+			</div>
+			
+					
+			<div class="casino-row">
+				<div class="casino-row-inner">
+					<div class="hex-wrapper hex-middle single">
+						<a href="..\..\online-casinon\casumo\index.htm">
+							<div class="hex-frame"></div>
+							<div class="hex hex-one">
+								<div class="hex-one-inner">
+									<div class="hex-two-inner" style="background-image: url('../../wp-content/uploads/default/casumo-casino-pa-natet-300x270.png');">
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="col one">
+						<a href="..\..\online-casinon\casumo\index.htm">
+							<div class="col-value">
+								<p class="h3">Casumo</p>
+							</div>
+							<div class="col-name">
+								<p>Casino Recension</p>
+							</div>
+						</a>
+					</div>
+					<div class="col two">
+						<div class="col-value icons-container">
+																<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Casino utan nedladdning" alt="Casino utan nedladdning icon">
+																		<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Live Casino" alt="Live Casino icon">
+																		<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Mobila Casinon" alt="Mobila Casinon icon">
+															</div>
+						<div class="col-name">
+							<p>Kasinotyper</p>
+						</div>
+					</div>
+					<div class="col three">
+						<div class="col-value">
+							<b>700 +</b>
+						</div>
+						<div class="col-name">
+							<p>Kasinospel</p>
+						</div>
+					</div>
+					<div class="col four">
+						<div class="col-value icons-container">
+																<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Gratis Spelautomaten" alt="gratis-spelautomaten icon">
+									 
+																	<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Roulett" alt="roulett icon">
+									 
+																	<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Blackjack" alt="blackjack icon">
+									 
+																	<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Skraplotter" alt="skraplotter icon">
+									 
+														</div>
+						<div class="col-name">
+							<p>Speltyper</p>
+						</div>
+					</div>
+					<div class="col five">
+						<div class="col-value">
+							<b>€1200</b>
+						</div>
+						<div class="col-name">
+							<p>Kasinobonus</p>
+						</div>
+					</div>
+					<div class="col six">
+						<div class="col-value">
+							<div class="button">
+								<noindex>
+									<button class="btn btn-green btn-tocasino" data-href="casumo">
+										Besök Kasino										<figure class="arrow"></figure>
+									</button>
+								</noindex>
+							</div>
+						</div>
+						<div class="col-name">&nbsp;</div>
+					</div>
+				</div>
+			</div>
+			
+					
+			<div class="casino-row">
+				<div class="casino-row-inner">
+					<div class="hex-wrapper hex-middle single">
+						<a href="..\..\online-casinon\energycasino\index.htm">
+							<div class="hex-frame"></div>
+							<div class="hex hex-one">
+								<div class="hex-one-inner">
+									<div class="hex-two-inner" style="background-image: url('../../wp-content/uploads/default/energy-casino-casino-pa-natet-300x270.png');">
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="col one">
+						<a href="..\..\online-casinon\energycasino\index.htm">
+							<div class="col-value">
+								<p class="h3">EnergyCasino</p>
+							</div>
+							<div class="col-name">
+								<p>Casino Recension</p>
+							</div>
+						</a>
+					</div>
+					<div class="col two">
+						<div class="col-value icons-container">
+																<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Casino utan nedladdning" alt="Casino utan nedladdning icon">
+																		<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Live Casino" alt="Live Casino icon">
+																		<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Mobila Casinon" alt="Mobila Casinon icon">
+															</div>
+						<div class="col-name">
+							<p>Kasinotyper</p>
+						</div>
+					</div>
+					<div class="col three">
+						<div class="col-value">
+							<b>400 +</b>
+						</div>
+						<div class="col-name">
+							<p>Kasinospel</p>
+						</div>
+					</div>
+					<div class="col four">
+						<div class="col-value icons-container">
+																<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Gratis Spelautomaten" alt="gratis-spelautomaten icon">
+									 
+																	<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Roulett" alt="roulett icon">
+									 
+																	<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Blackjack" alt="blackjack icon">
+									 
+														</div>
+						<div class="col-name">
+							<p>Speltyper</p>
+						</div>
+					</div>
+					<div class="col five">
+						<div class="col-value">
+							<b>2000 SEK</b>
+						</div>
+						<div class="col-name">
+							<p>Kasinobonus</p>
+						</div>
+					</div>
+					<div class="col six">
+						<div class="col-value">
+							<div class="button">
+								<noindex>
+									<button class="btn btn-green btn-tocasino" data-href="energycasino">
+										Besök Kasino										<figure class="arrow"></figure>
+									</button>
+								</noindex>
+							</div>
+						</div>
+						<div class="col-name">&nbsp;</div>
+					</div>
+				</div>
+			</div>
+			
+					
+			<div class="casino-row">
+				<div class="casino-row-inner">
+					<div class="hex-wrapper hex-middle single">
+						<a href="..\..\online-casinon\vera-john\index.htm">
+							<div class="hex-frame"></div>
+							<div class="hex hex-one">
+								<div class="hex-one-inner">
+									<div class="hex-two-inner" style="background-image: url('../../wp-content/uploads/default/vera-john-casino-pa-natet-300x270.png');">
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="col one">
+						<a href="..\..\online-casinon\vera-john\index.htm">
+							<div class="col-value">
+								<p class="h3">Vera &#038; John</p>
+							</div>
+							<div class="col-name">
+								<p>Casino Recension</p>
+							</div>
+						</a>
+					</div>
+					<div class="col two">
+						<div class="col-value icons-container">
+																<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Live Casino" alt="Live Casino icon">
+																		<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Mobila Casinon" alt="Mobila Casinon icon">
+															</div>
+						<div class="col-name">
+							<p>Kasinotyper</p>
+						</div>
+					</div>
+					<div class="col three">
+						<div class="col-value">
+							<b>N/A</b>
+						</div>
+						<div class="col-name">
+							<p>Kasinospel</p>
+						</div>
+					</div>
+					<div class="col four">
+						<div class="col-value icons-container">
+																<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Blackjack" alt="blackjack icon">
+									 
+																	<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Roulett" alt="roulett icon">
+									 
+																	<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Skraplotter" alt="skraplotter icon">
+									 
+																	<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Gratis Spelautomaten" alt="gratis-spelautomaten icon">
+									 
+														</div>
+						<div class="col-name">
+							<p>Speltyper</p>
+						</div>
+					</div>
+					<div class="col five">
+						<div class="col-value">
+							<b>N/A</b>
+						</div>
+						<div class="col-name">
+							<p>Kasinobonus</p>
+						</div>
+					</div>
+					<div class="col six">
+						<div class="col-value">
+							<div class="button">
+								<noindex>
+									<button class="btn btn-green btn-tocasino" data-href="vera-john">
+										Besök Kasino										<figure class="arrow"></figure>
+									</button>
+								</noindex>
+							</div>
+						</div>
+						<div class="col-name">&nbsp;</div>
+					</div>
+				</div>
+			</div>
+			
+					
+			<div class="casino-row">
+				<div class="casino-row-inner">
+					<div class="hex-wrapper hex-middle single">
+						<a href="..\..\online-casinon\jackpot-city\index.htm">
+							<div class="hex-frame"></div>
+							<div class="hex hex-one">
+								<div class="hex-one-inner">
+									<div class="hex-two-inner" style="background-image: url('../../wp-content/uploads/default/jackpotcity-casino-pa-natet-300x270.png');">
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="col one">
+						<a href="..\..\online-casinon\jackpot-city\index.htm">
+							<div class="col-value">
+								<p class="h3">Jackpot City</p>
+							</div>
+							<div class="col-name">
+								<p>Casino Recension</p>
+							</div>
+						</a>
+					</div>
+					<div class="col two">
+						<div class="col-value icons-container">
+																<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Live Casino" alt="Live Casino icon">
+																		<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Casino utan nedladdning" alt="Casino utan nedladdning icon">
+																		<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Mobila Casinon" alt="Mobila Casinon icon">
+																		<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Ladda ner casino" alt="Ladda ner casino icon">
+															</div>
+						<div class="col-name">
+							<p>Kasinotyper</p>
+						</div>
+					</div>
+					<div class="col three">
+						<div class="col-value">
+							<b>400 +</b>
+						</div>
+						<div class="col-name">
+							<p>Kasinospel</p>
+						</div>
+					</div>
+					<div class="col four">
+						<div class="col-value icons-container">
+																<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Blackjack" alt="blackjack icon">
+									 
+																	<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Roulett" alt="roulett icon">
+									 
+																	<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Skraplotter" alt="skraplotter icon">
+									 
+																	<img src="..\..\wp-content\themes\hex\library\images\noicon.png" title="Gratis Spelautomaten" alt="gratis-spelautomaten icon">
+									 
+														</div>
+						<div class="col-name">
+							<p>Speltyper</p>
+						</div>
+					</div>
+					<div class="col five">
+						<div class="col-value">
+							<b>N/A</b>
+						</div>
+						<div class="col-name">
+							<p>Kasinobonus</p>
+						</div>
+					</div>
+					<div class="col six">
+						<div class="col-value">
+							<div class="button">
+								<noindex>
+									<button class="btn btn-green btn-tocasino" data-href="jackpot-city">
+										Besök Kasino										<figure class="arrow"></figure>
+									</button>
+								</noindex>
+							</div>
+						</div>
+						<div class="col-name">&nbsp;</div>
+					</div>
+				</div>
+			</div>
+			
+					
+	</div>
+                        <span class="postpend" data-args='{"post_type":"online-casinon","post_status":"publish","posts_per_page":5,"offset":0,"meta_query":[{"key":"show_hide","value":"show"}],"tax_query":[{"taxonomy":"post_format","field":"slug","terms":["post-format-aside"],"operator":"NOT IN"}]}' data-perpage="30" data-offset="30">
+                    </span></div>
+                </section>
+            
+        </div>	    
+
+        <meta itemprop="name" content="Live blackjack">
+        <meta itemprop="description" content="Om du vill få omedelbar återkoppling på hur du spelar du kan hitta blackjack tränare på nätet. Du kan köpa en från återförsäljare eller hitta enkel kundanpassade program på nätet som individer har gjort för deras hemsida eller bloggar. ...">
+        <meta itemprop="url" content="http://casinohex.se/blackjack-online/live-blackjack/">
+        <span itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+            <meta itemprop="bestRating" content="5">
+            <meta itemprop="ratingValue" content="5">
+            <meta itemprop="ratingCount" content="90">
+            <meta itemprop="reviewCount" content="90">
+        </span>
+
+    </main>
+</div>
+
+			<footer class="footer">
+				<div id="inner-footer" class="wrap cf">
+					<ul class="source-org copyright">
+						<li>2016 &copy; Casino HEX</li>
+						<li>Eftertryck Förbjudes</li>
+						<li><a href="#">Integritetspolicy</a></li>
+						<li><a href="..\..\sitemap\index.htm">Sitemap</a></li>
+						<li><a href="..\..\kontakter\index.htm">Kontakter</a></li>
+						<li id="socialsMenu">	
+	<ul>
+		<li class="fb shrink"><a href="" target="_blank">Online Casino HEX - Facebook</a></li>
+		<li class="gp shrink"><a href="" target="_blank">Online Casino HEX - Google+</a></li>
+		<li class="pn shrink"><a href="" target="_blank">Online Casino HEX - Pinterest</a></li>
+		<li class="tw shrink"><a href="" target="_blank">Online Casino HEX - Twitter</a></li>
+		<li class="yt shrink"><a href="" target="_blank">Online Casino HEX - Youtube</a></li>
+	</ul>
+	
+</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+
+        <script type='text/javascript'>
+/* <![CDATA[ */
+var ratingsL10n = {"plugin_url":"http:\/\/casinohex.se\/wp-content\/plugins\/wp-postratings","ajax_url":"http:\/\/casinohex.se\/wp-admin\/admin-ajax.php","text_wait":"Please rate only 1 post at a time.","image":"stars_flat(png)","image_ext":"png","max":"5","show_loading":"1","show_fading":"1","custom":"0"};
+var ratings_mouseover_image=new Image();ratings_mouseover_image.src=ratingsL10n.plugin_url+"/images/"+ratingsL10n.image+"/rating_over."+ratingsL10n.image_ext;;
+/* ]]> */
+</script>
+<script type='text/javascript' src='..\..\wp-content\plugins\wp-postratings\postratings-js.js'></script>
+<script type='text/javascript' src='..\..\wp-content\themes\hex3\library\js\pageslide.js'></script>
+<script type='text/javascript' src='..\..\wp-content\themes\hex3\library\js\scripts.js'></script>
+<script type='text/javascript' src='..\..\wp-content\themes\hex3\library\js\smooth.js'></script>
+<script type='text/javascript' src='..\..\wp-content\themes\hex3\library\js\jquery-ui.js'></script>
+<script type='text/javascript' src='..\..\wp-content\themes\hex3\library\js\arrowUp.js'></script>
+<script type='text/javascript' src='..\..\wp-includes\js\wp-embed.min.js'></script>
+		
+		<script>
+			jQuery(document).ready(function($) {
+				
+				$('.btn-tocasino').click(function(e){
+					e.preventDefault();
+					var href = '/goto/'+$(this).attr('data-href')+'-direct';
+					window.open(href);
+				});
+				
+				$('#search').click(function(){
+					if($('#searchContainer').hasClass('opened')){
+						$('#searchContainer').fadeOut(300);
+						$('#searchContainer').removeClass('opened');
+						$('#search').removeClass('opened');
+					}
+					else{
+						$('#searchContainer').fadeIn(300);
+						$('#searchContainer').addClass('opened');
+						$('#search').addClass('opened');
+												
+						$(function() {
+							
+							$( "#tags" ).autocomplete({
+								source: 'http://casinohex.se/wp-content/themes/hex3/search-source.php',
+								minLength:3,
+								open: function () { $('ul.ui-autocomplete').addClass('opened') },
+								close: function () { 
+									$('ul.ui-autocomplete')
+									.removeClass('opened')
+									.css('display','block'); 
+								}
+							}).data( "ui-autocomplete" )._renderItem = function( ul, item ) {
+								return $( "<li></li>" ).data( "item.ui-autocomplete", item ).append("<a href='" + item.link + "'><img src=\"" + item.image + "\"/><span>" + item.value + "</span></a>").appendTo( ul );
+								
+							};
+							
+						});
+					}
+				});
+			});
+			jQuery(document).ready(function($) {
+				hex_postpend({ 
+					action:'postpend',
+					secure:'7abefbd3f1'
+				});
+			});
+		</script>
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-K3J2J8');</script>
+		<!-- End Google Tag Manager -->	
+    </body>
+</html> <!-- end of site. what a ride! -->
+
+<!-- Dynamic page generated in 0.641 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2016-12-07 12:38:07 -->
+
+<!-- super cache -->

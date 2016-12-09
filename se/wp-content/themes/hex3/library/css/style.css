@@ -223,6 +223,7 @@ a:link, a:visited:link {
 }  
 
 .load_more{
+	display:none;
     text-align:center;
     margin: 0 0 1em 0;
 }

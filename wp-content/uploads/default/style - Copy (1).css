@@ -926,7 +926,7 @@ POSTS & CONTENT STYLES
     font-size:1.125em;
 }
 
-.col.one .col-name {display:none;} .casino-row{
+ .casino-row{
     position:relative;
     display:block;
     width:100%;
@@ -934,7 +934,7 @@ POSTS & CONTENT STYLES
     margin:0 auto 0.75em auto;
     padding: 1.125em 0 1.125em 7.5em;
 }
-.col.one .col-name {display:none;} .casino-row-inner{
+ .casino-row-inner{
     overflow:hidden;
     background-color: #313131;
     background-image: url('../images/hex-frame-casino.png');
@@ -942,7 +942,7 @@ POSTS & CONTENT STYLES
     background-size: auto 100%;
     background-repeat: no-repeat;
 }
-.col.one .col-name {display:none;} .casino-row .col{
+ .casino-row .col{
     display: inline-block;
     float: left;
     margin: 0.25em 0;
@@ -951,24 +951,24 @@ POSTS & CONTENT STYLES
     border-right: 1px solid rgba(0,0,0,0.3);
     border-left: 1px solid rgba(255,255,255,0.1);
 }
-.col.one .col-name {display:none;} .casino-row .one{
+ .col.one .col-name {display:none;} .casino-row .one{
     width:25%;
     padding-left:1.5em;
     border-left:none;
 }
-.col.one .col-name {display:none;} .casino-row .two,
-.col.one .col-name {display:none;} .casino-row .three,
-.col.one .col-name {display:none;} .casino-row .four{
+ .casino-row .two,
+ .casino-row .three,
+ .casino-row .four{
     width:12.5%;
 }
-.col.one .col-name {display:none;} .casino-row .col.five{
+ .casino-row .col.five{
     width:15%;
 }
-.col.one .col-name {display:none;} .casino-row .six{
+ .casino-row .six{
     width:22.5%;
     border-right: none;
 }
-.col.one .col-name {display:none;} .casino-row .col .col-value{
+ .casino-row .col .col-value{
     text-align: center;
     position:relative;
     height:4em;
@@ -976,29 +976,29 @@ POSTS & CONTENT STYLES
     display:table;
     width:100%;
 }
-.col.one .col-name {display:none;} .casino-row .two .col-value{
+ .casino-row .two .col-value{
     width:60px;
     margin:0 auto;
 }
-.col.one .col-name {display:none;} .casino-row .four .col-value{
+ .casino-row .four .col-value{
     width:90px;
     margin:0 auto;
 }
-.col.one .col-name {display:none;} .casino-row .button{
+ .casino-row .button{
     position: relative;
     display:table-cell;
     vertical-align: middle;
     z-index:10;
 	padding-top: 1.5em;
 }
-.col.one .col-name {display:none;} .casino-row .btn{
+ .casino-row .btn{
     font-size:0.9375em;
     padding:0.5em 0.75em;
     border-color: #7ccb54 transparent #369246 #7ccb54;
     height:35px;
     width:165px;
 }
-.col.one .col-name {display:none;} .casino-row .arrow{
+ .casino-row .arrow{
     display: inline-block;
     position:absolute;
     width:27px;
@@ -1011,25 +1011,25 @@ POSTS & CONTENT STYLES
     border-radius:5px;
     z-index:-1;
 }
-.col.one .col-name {display:none;} .casino-row .btn:hover,
-.col.one .col-name {display:none;} .casino-row .btn:hover > .arrow{
+ .casino-row .btn:hover,
+ .casino-row .btn:hover > .arrow{
 	background:#5cbf2a;
 	transition:none;
 }
-.col.one .col-name {display:none;} .casino-row .btn.not-accepted{
+ .casino-row .btn.not-accepted{
 	background: #444;
 	border-color: #444;
 	color: #828282;
 }
-.col.one .col-name {display:none;} .casino-row .arrow.not-accepted,
-.col.one .col-name {display:none;} .casino-row .button:hover > .arrow.not-accepted{
+ .casino-row .arrow.not-accepted,
+ .casino-row .button:hover > .arrow.not-accepted{
 	background: #444;
 }
 
-.col.one .col-name {display:none;} .casino-row{
+ .casino-row{
     font-size: 1em;
 }
-.col.one .col-name {display:none;} .casino-row .two .icons-container div{
+ .casino-row .two .icons-container div{
     width:50%;
     float:left;
 }
@@ -1053,7 +1053,7 @@ POSTS & CONTENT STYLES
     color:#828282;
     text-shadow: 0 1px 0 rgba(0,0,0,0.7);
 }
-.col.one .col-name {display:none;} .casino-row .hex-wrapper{
+ .casino-row .hex-wrapper{
     position:absolute;
     top:0;
     left:0;
@@ -2052,29 +2052,29 @@ ul.source-org li:last-child{
         height: 152px;
     }
 
-    .col.one .col-name {display:none;} .casino-row{
+     .casino-row{
         padding: 0.5em 0 0 70px;
         height: 85px;
     }
-    .col.one .col-name {display:none;} .casino-row .hex-wrapper{
+     .casino-row .hex-wrapper{
         width:50px;
         height:88px;
         margin-right:45px;
         margin-bottom:-60px;
     }
-    .col.one .col-name {display:none;} .casino-row .hex-wrapper .hex-frame{
+     .casino-row .hex-wrapper .hex-frame{
         width:100px;
         height:88px;
     }
-    .col.one .col-name {display:none;} .casino-row .hex{
+     .casino-row .hex{
        left: 1px !important;
        top: 3px !important;
     }
-    .col.one .col-name {display:none;} .casino-row .hex-one {
+     .casino-row .hex-one {
         width: 95px;
         height: 83px;
 	}
-    .col.one .col-name {display:none;} .casino-row .hex-two {
+     .casino-row .hex-two {
         width: 83px;
         height: 95px;
     }
@@ -2104,31 +2104,31 @@ ul.source-org li:last-child{
 	
     /*----------------*/
 
-    .col.one .col-name {display:none;} .casino-row .arrow{
+     .casino-row .arrow{
         display: none;
     }
-    .col.one .col-name {display:none;} .casino-row{
+     .casino-row{
         font-size:0.75em;
     }
-    .col.one .col-name {display:none;} .casino-row-inner{
+     .casino-row-inner{
         background-image: none;
     }
-    .col.one .col-name {display:none;} .casino-row .two,
-    .col.one .col-name {display:none;} .casino-row .three,
-    .col.one .col-name {display:none;} .casino-row .four{
+     .casino-row .two,
+     .casino-row .three,
+     .casino-row .four{
         display:none;
     }
-    .col.one .col-name {display:none;} .casino-row .one{
+     .col.one .col-name {display:none;} .casino-row .one{
         width:40%;
         padding-left:2em;
     }
-    .col.one .col-name {display:none;} .casino-row .col.five{
+     .casino-row .col.five{
         width:20%;
     }
-    .col.one .col-name {display:none;} .casino-row .six{
+     .casino-row .six{
         width:40%;
     }
-    .col.one .col-name {display:none;} .casino-row .btn{
+     .casino-row .btn{
         padding:0.5em;
         height:auto;
         width:inherit;
@@ -2251,14 +2251,14 @@ ul.source-org li:last-child{
         font-size:0.875em;
     }
 
-    .col.one .col-name {display:none;} .casino-row .col.one{
+     .casino-row .col.one{
         display:none;
     }
-    .col.one .col-name {display:none;} .casino-row .col.five{
+     .casino-row .col.five{
         width:45%;
         padding-left:2em;
     }
-    .col.one .col-name {display:none;} .casino-row .col.six{
+     .casino-row .col.six{
         width:55%;
     }
     .col-value .h3, .col-value b{
@@ -2339,17 +2339,17 @@ LARGER MOBILE DEVICES
         font-size:1.125em;
     }
 
-    .col.one .col-name {display:none;} .casino-row .two{
+     .casino-row .two{
         display:inline-block;
     }
-    .col.one .col-name {display:none;} .casino-row .one{
+     .col.one .col-name {display:none;} .casino-row .one{
         width:32%;
     }
-    .col.one .col-name {display:none;} .casino-row .col.two,
-    .col.one .col-name {display:none;} .casino-row .col.five{
+     .casino-row .col.two,
+     .casino-row .col.five{
         width:18%;
     }
-    .col.one .col-name {display:none;} .casino-row .six{
+     .casino-row .six{
         width:32%;
     }
     .icons-container img{
@@ -2451,37 +2451,37 @@ TABLET & SMALLER LAPTOPS
         width:49%;
     }
 
-    .col.one .col-name {display:none;} .casino-row .arrow{
+     .casino-row .arrow{
         display: none;
     }
-    .col.one .col-name {display:none;} .casino-row{
+     .casino-row{
         font-size:0.875em;
         margin: 0 auto 1.25em auto;
         height:120px;
         padding: 1.75em 0 2em 7.5em;
     }
-    .col.one .col-name {display:none;} .casino-row-inner{
+     .casino-row-inner{
         background-image: none;
     }
-    .col.one .col-name {display:none;} .casino-row .col.three{
+     .casino-row .col.three{
         display:none;
     }
-    .col.one .col-name {display:none;} .casino-row .col.one{
+     .casino-row .col.one{
         width:29%;
         padding-left: 2.5em;
     }
-    .col.one .col-name {display:none;} .casino-row .col.two,
-    .col.one .col-name {display:none;} .casino-row .col.four{
+     .casino-row .col.two,
+     .casino-row .col.four{
         width:15%;
         display: inline-block;
     }
-    .col.one .col-name {display:none;} .casino-row .col.five{
+     .casino-row .col.five{
         width:16%;
     }
-    .col.one .col-name {display:none;} .casino-row .col.six{
+     .casino-row .col.six{
         width:25%;
     }
-    .col.one .col-name {display:none;} .casino-row .btn{
+     .casino-row .btn{
         padding:0.5em;
         height:auto;
         width:inherit;
@@ -2611,38 +2611,38 @@ DESKTOP
         left: 8px;
     }
 
-    .col.one .col-name {display:none;} .casino-row{
+     .casino-row{
         font-size:1em;
         height:auto;
         margin: 0 auto 0.5em auto;
         padding: 1.125em 0 1.125em 7.5em;
     }
-    .col.one .col-name {display:none;} .casino-row-inner{
+     .casino-row-inner{
         background-image: url('../images/hex-frame-casino.png');
     }
-    .sections section:nth-child(2n-2) .col.one .col-name {display:none;} .casino-row-inner{
+    .sections section:nth-child(2n-2)  .casino-row-inner{
         background-image: url('../images/hex-frame2-casino.png');
     }
-    .col.one .col-name {display:none;} .casino-row .arrow,
-    .col.one .col-name {display:none;} .casino-row .col.three{
+     .casino-row .arrow,
+     .casino-row .col.three{
         display: inline-block;
     }
-    .col.one .col-name {display:none;} .casino-row .col.one{
+     .casino-row .col.one{
         width:26%;
         padding-left:1.5em;
     }
-    .col.one .col-name {display:none;} .casino-row .col.two,
-    .col.one .col-name {display:none;} .casino-row .col.three,
-    .col.one .col-name {display:none;} .casino-row .col.four{
+     .casino-row .col.two,
+     .casino-row .col.three,
+     .casino-row .col.four{
         width:12% !important;
     }
-    .col.one .col-name {display:none;} .casino-row .col.five{
+     .casino-row .col.five{
         width:15%;
     }
-    .col.one .col-name {display:none;} .casino-row .col.six{
+     .casino-row .col.six{
         width:23%;
     }
-    .col.one .col-name {display:none;} .casino-row .btn{
+     .casino-row .btn{
         padding:0.5em 0.75em;
         height:35px;
         width:165px;
@@ -2706,13 +2706,13 @@ LARGE VIEWING SIZE
 
     /*---------*/
 
-    .col.one .col-name {display:none;} .casino-row .hex-wrapper{
+     .casino-row .hex-wrapper{
         display: block;
     }
-    .col.one .col-name {display:none;} .casino-row{
+     .casino-row{
         padding: 1.125em 0 1.125em 7.5em;
     }
-    .col.one .col-name {display:none;} .casino-row .button{
+     .casino-row .button{
         padding-right: 1em;
     }
 

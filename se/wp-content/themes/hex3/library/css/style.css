@@ -433,22 +433,23 @@ header ul li .ddArrow i {
     text-indent: -99999px;
 }
 #langMenu li.de{
-    background-image:url('../images/hexcasino-de.png');
+    background-image:url('../images/luckonlinecasino-de.png');
 }
 #langMenu li.fr{
-    background-image:url('../images/hexcasino-fr.png');
+	display:none;
+    background-image:url('../images/luckonlinecasino-fr.png');
 }
 #langMenu li.nl{
-    background-image:url('../images/hexcasino-nl.png');
+    background-image:url('../images/luckonlinecasino-nl.png');
 }
 #langMenu li.fi{
-    background-image:url('../images/hexcasino-fi.png');
+    background-image:url('../images/luckonlinecasino-fi.png');
 }
 #langMenu li.ca{
-    background-image:url('../images/hexcasino-ca.png');
+    background-image:url('../images/luckonlinecasino-ca.png');
 }
 #langMenu li.sv{
-    background-image:url('../images/hexcasino-se.png');
+    background-image:url('../images/luckonlinecasino-se.png');
 }
 #langMenu li.ru{
     background-image:url('../images/hexcasino-ru.png');

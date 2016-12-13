@@ -2621,7 +2621,7 @@ DESKTOP
         background-image: url('../images/hex-frame-casino.png');
     }
     .sections section:nth-child(2n-2)  .casino-row-inner{
-        background-image: url('../images/hex-frame2-casino.png');
+        background-image: url('../images/hex-frame-casino.png');
     }
      .casino-row .arrow,
      .casino-row .col.three{

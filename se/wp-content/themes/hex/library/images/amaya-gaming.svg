@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 800 660" enable-background="new 0 0 800 660" xml:space="preserve">
+<g id="Layer_2">
+	
+		<radialGradient id="light_1_" cx="399.9813" cy="329.9318" r="395.506" gradientTransform="matrix(0.9639 0 0 0.88 14.4759 39.66)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0.5" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#D9D9D9"/>
+	</radialGradient>
+	<rect id="light" fill="url(#light_1_)" width="800" height="660"/>
+</g>
+
+<g id="devs">
+	<path id="amaya" d="M164.2,316.5l-37.4,69.2H103l61.2-111.9l62.3,111.9h-24.8L164.2,316.5z M149.4,347.7l15,26.1l15-26.1H149.4z
+		 M469.8,386.1h24.8l-62.3-111.9L371,386.1h23.8l37.4-69.2L469.8,386.1z M417.4,348l15,26.1l15-26.1H417.4z M672.2,386.1H697
+		l-62.3-111.9l-61.2,111.9h23.8l37.4-69.2L672.2,386.1z M619.8,348l15,26.1l15-26.1H619.8z M298.1,348.9l-56.3-74.6h-0.3v111.9h18.3
+		v-55.7l38.1,52.1l37.6-50.9v54.5h19V274.2h-0.3L298.1,348.9z M594.2,274.2h-23.3l-37,55.6l-37-55.6h-24l51.4,76l-0.2,35.9h18.7
+		l-0.1-35.9L594.2,274.2z"/>
+</g>
+</svg>

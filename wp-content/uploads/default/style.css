@@ -488,7 +488,7 @@ header ul li .ddArrow i {
     display:none;
 }
 
-#search{
+#search{display:none;
     background-image:url('../images/hex-search.png');
     margin: 0 10px !important;
 }
@@ -3269,7 +3269,7 @@ LARGE VIEWING SIZE
     #langMenu.mobile ul li a:after{
         display: none;
     }
-    #langMenu.mobile #search{
+    #langMenu.mobile #search{display:none;
         display: none;
     }
 }

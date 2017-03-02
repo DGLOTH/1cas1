@@ -451,6 +451,9 @@ header ul li .ddArrow i {
 #langMenu li.sv{
     background-image:url('../images/luckonlinecasino-se.png');
 }
+#langMenu li.no{
+    background-image:url('../images/luckonlinecasino-no.png');
+}
 #langMenu li.ru{
     background-image:url('../images/hexcasino-ru.png');
 	display:none;

@@ -3354,3 +3354,7 @@ PRINT STYLESHEET
   .respond-form,
   nav {
     display: none; } }
+	
+.hide {
+	display:none !important;
+}	
